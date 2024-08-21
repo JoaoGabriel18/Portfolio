@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>João Gabriel</title>
+  </head>
+  <!-- Inicando a estrutura da página -->
+  <body>
+    <h1>João Gabriel</h1>
+    <h2>Meu Portifólio</h2>
+    <!-- Lista com os links de cada parte da página -->
+    <ul id="menu">
+      <li><a href="#sobreMim">Sobre Mim</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <!-- parte da página sobre mim -->
+    <div id="sobreMim">
+      <h2>Sobre Mim</h2>
+      <p>
+        Meu nome é João Gabriel, sou estudante de programação e gosto bastante
+        de tecnologias em geral. Também estou sempre buscando aprimorar os meus
+        conhecimentos em tecnologia nas diversas áreas, seja desenvolvimento
+        web, IOT, área de dados entre outras várias.
+      </p>
+    </div>
+    <!-- Parte sobre a minha formação -->
+    <div id="formacao">
+      <h2>Formação</h2>
+      <ul>
+        <li>Ensino Médio Completo</li>
+        <li>Cursando Análise e Desenvolvimento de Sistemas</li>
+        <li>Inglês Intermediário</li>
+      </ul>
+    </div>
+    <!-- Parte sobre o porfólio -->
+    <div id="portfolio">
+      <h2>Portfólio</h2>
+      <ul>
+        <li>
+          <a class="projeto"
+            href="https://github.com/JoaoGabriel18/Projeto_OnePiece"
+            target="_blank">Projeto_OnePiece</a>
+        </li>
+        <li>
+          <a class="projeto"
+            href="https://github.com/JoaoGabriel18/nlw-10-copa"
+            target="_blank">Projeto_Copa</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Área de contato -->
+    <div id="contato">
+      <h2>Contato</h2>
+      <form action>
+        <label for="name">Nome: </label>
+        <input id="name" type="text">
+        <label for="email">Email: </label>
+        <input placeholder="Digite seu email" type="email" id="email">
+        <label for="mensagem">Mensagem: </label>
+        <textarea placeholder="Escreva sua mensagem" id="mensagem"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </body>
+</html>

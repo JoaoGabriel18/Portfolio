@@ -1,0 +1,82 @@
+/* Importanto Fonte */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+/* Estilo Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do Body */
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: "JetBrains Mono", monospace;
+  color: #ffffff;
+}
+
+h1,
+h2 {
+  padding: 20px;
+}
+
+/* Menu */
+#menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* Estilo da Lista */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+li {
+  margin: 10px;
+}
+
+/* Links */
+a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #35a4e4;
+  border-radius: 50px;
+  padding: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+a:hover {
+  background-color: #217baf;
+  padding: 12px;
+}
+
+/* Paragrafo */
+p {
+  display: flex;
+  justify-content: left;
+}
+.projeto {
+  margin: 50x !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/* Seções */
+#sobreMim,
+#formacao,
+#portfolio,
+#contato {
+  padding: 10px;
+}
+
+/* Label */
+label {
+  color: #ffffff;
+}
